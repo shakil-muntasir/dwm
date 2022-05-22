@@ -6,7 +6,7 @@
 interval=0
 
 # load colors
-. ~/.config/chadwm/scripts/bar_themes/catppuccin
+. ~/.config/dwm/scripts/bar_themes/catppuccin
 
 xsetroot -name "Howdy, $(whoami)!"
 
