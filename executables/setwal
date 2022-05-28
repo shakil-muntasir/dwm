@@ -1,0 +1,14 @@
+#!/bin/sh
+
+echo "Choosing random wallpaper..."
+
+wall=$(find $HOME/Pictures/Wallpapers -type f | shuf -n 1)
+
+echo "Setting up wallpaper"
+
+#feh --bg-fill "$wall"
+
+echo "Generating color scheme..."
+wal -i "$wall" > /dev/null
+
+echo "Done!"
